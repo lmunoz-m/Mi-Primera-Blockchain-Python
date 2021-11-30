@@ -18,7 +18,11 @@
 2. Abrimos postman(por ejemplo) e introducimos en una peticion GET la url que esta seguida de "Running on"
 3. Seguidamente en postman una vez pegada la url anterior "http://5d1f-79-154-128-208.ngrok.io" le añadimos el metodo que queramos realizar
 4. Si quisieramos crear bloques lo hariamos con "http://5d1f-79-154-128-208.ngrok.io/mine_block"
-##### **[GET]** ~/http://5d1f-79-154-128-208.ngrok.io/mine_block (Obtener todos los usuarios de la BBDD)
-![GET http://5d1f-79-154-128-208.ngrok.io/mine_block](https://i.ibb.co/vXTqDCF/mine-block.jpg)
+	##### **[GET]** ~/http://5d1f-79-154-128-208.ngrok.io/mine_block (Obtener ultimo bloque minado)
+	![GET http://5d1f-79-154-128-208.ngrok.io/mine_block](https://i.ibb.co/vXTqDCF/mine-block.jpg)
 5. Si quisieramos obtener la cadena de bloques lo hariamos con "http://5d1f-79-154-128-208.ngrok.io/get_chain"
+	##### **[GET]** ~/http://5d1f-79-154-128-208.ngrok.io/get_chain (Obtener toda la cadena de bloques)
+	![GET http://5d1f-79-154-128-208.ngrok.io/mine_block](https://i.ibb.co/vXTqDCF/mine-block.jpg)
 6. Si quisieramos verificar que la cadena es valida lo hariamos con "http://5d1f-79-154-128-208.ngrok.io/is_valid"
+	##### **[GET]** ~/http://5d1f-79-154-128-208.ngrok.io/is_valid (Obtener si el bloque es valido)
+	![GET http://5d1f-79-154-128-208.ngrok.io/mine_block](https://i.ibb.co/DDYvqFZ/is-valid.jpg)
