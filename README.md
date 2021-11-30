@@ -5,7 +5,7 @@
 
 		ngrok by @inconshreveable (Ctrl+C to quit)
 
-		Session Status 					online  
+		Session Status 				online  
 		* Running on 					http://5d1f-79-154-128-208.ngrok.io    
 		* Traffic stats available on 			http://127.0.0.1:4040
 		Web Interface  				http://127.0.0.1:4040 
