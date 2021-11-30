@@ -16,8 +16,8 @@ class Blockchain:
 	def create_block(self, proof, previous_hash):
 		""" Creación de un nuevo bloque
 			Arguments:
-				- proof: Hash del bloque actual (proof != hash)
-				- previous_hash: Nonce del bloque previo
+				- proof: Nonce del bloque actual (proof != hash)
+				- previous_hash: Hash del bloque previo
 				
 			Returns:
 				- block: Nuevo bloque creado
@@ -37,7 +37,7 @@ class Blockchain:
 		"""
 		return self.chain[-1] # Con el -1 indicamos que es el ultimo elemento de la cadena
 	
-	def proof_of_work(self,previous_proof):
+	def proof_of_work(self, previous_proof):
 		""" Protocolo de concenso Proof of Work(PoW)
 			
 			Arguments:
@@ -87,7 +87,7 @@ class Blockchain:
 				return False
 			previous_block = previous_block['proof']
 			proof = block['proof']
-			hash_operation = hashlib.sha256(str(proof**2 - previous_block**2).encode()).hexdigest()
+			hash_operation = hashlib.sha256(str(proof**2 - previous_block**2).encode()).hexdigest() # Comprobar que algun hash tiene algo distinto '0000'
 			if hash_operation[:4] != '0000':
 				return False
 			previous_block = block
