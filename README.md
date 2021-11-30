@@ -3,14 +3,14 @@
 ### Pasos a seguir para ejecutar el servidor
 1. Compilamos y arrancamos con py servidor-web.py, nos saldra algo asi:
 
-		ngrok by @inconshreveable                        
-		(Ctrl+C to quit)
-		Session Status online  
-		* Running on http://5d1f-79-154-128-208.ngrok.io    
-		* Traffic stats available on http://127.0.0.1:4040
-		Web Interface  http://127.0.0.1:4040 
-		Forwarding     http://5d1f-79-154-128-208.ngrok.io -> http://localhost:5000
-		Forwarding     https://5d1f-79-154-128-208.ngrok.io -> http://localhost:5000
+		ngrok by @inconshreveable (Ctrl+C to quit)
+		
+		Session Status 					online  
+		* Running on 					http://5d1f-79-154-128-208.ngrok.io    
+		* Traffic stats available on 	http://127.0.0.1:4040
+		Web Interface  					http://127.0.0.1:4040 
+		Forwarding     					http://5d1f-79-154-128-208.ngrok.io -> http://localhost:5000
+		Forwarding     					https://5d1f-79-154-128-208.ngrok.io -> http://localhost:5000
 
 	    Connections     ttl     opn     rt1     rt5     p50     p90
 						0       0       0.00    0.00    0.00    0.00 
